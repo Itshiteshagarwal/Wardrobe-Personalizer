@@ -1,0 +1,21 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow:hidden;
+  }
+  
+  .carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-images img {
+    width: 100%;
+    margin-left: 70px;
+    display: block;
+  }
+  
+  .carousel-images img.active {
+    opacity: 1;
+  }
+  
